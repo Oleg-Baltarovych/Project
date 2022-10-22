@@ -1,0 +1,378 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arial";
+}
+
+body {
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 71px;
+}
+
+main {
+  display: flex;
+}
+
+h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  background-image: url("./img/tooltip.png");
+  background-repeat: no-repeat;
+  background-position: 190px;
+  background-size: 20px;
+}
+
+p {
+  padding: 5px 0px;
+  font-size: 14px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.language_select {
+  width: 130px;
+  height: 33px;
+  border-radius: 3px;
+  color: grey;
+  background-color: #fafafa;
+  background-image: url("./img/flag.png");
+  background-repeat: no-repeat;
+  background-position: calc(10% - 3px) center;
+  background-size: 20px;
+  padding-left: 30px;
+  border: 1px solid #d0dae4;
+}
+
+.currency_select {
+  width: 81px;
+  height: 33px;
+  border-radius: 3px;
+  color: grey;
+  background-color: #fafafa;
+  padding: 0px 5px;
+  border: 1px solid #d0dae4;
+}
+
+.order_form {
+  width: 50%;
+  height: 600px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px 3px #e5e9ed;
+  border-radius: 5px;
+}
+
+.product {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form_head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.form_head input {
+  width: 48%;
+  height: 44px;
+  border: 1px solid #d0dae4;
+  border-radius: 3px;
+  padding: 0px 10px;
+}
+
+footer p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #666c70;
+}
+
+.form_main {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_main input {
+  height: 44px;
+  border: 1px solid #d0dae4;
+  border-radius: 3px;
+  margin: 25px 0px;
+  padding: 0px 10px;
+}
+
+.form_main select {
+  height: 44px;
+  border: 1px solid #d0dae4;
+  border-radius: 3px;
+  padding: 0px 5px;
+}
+
+.card_type div {
+  width: 48%;
+  height: 35px;
+  border: 1px solid #d0dae4;
+  border-bottom: 0px;
+  border-radius: 3px 3px 0px 0px;
+  background-color: white;
+  cursor: pointer;
+  border-bottom: 1px solid #d0dae4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_type img {
+  height: 20px;
+}
+
+.card_type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.country {
+  appearance: none;
+  background-image: url("./img/select.png");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 3px) center;
+  background-size: 13px;
+}
+
+input[placeholder="Card number *"] {
+  width: 100%;
+  height: 44px;
+  border: 1px solid #d0dae4;
+  border-radius: 3px;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+}
+
+input[placeholder="Phone number"] {
+  background-image: url("./img/tooltip.png");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) center;
+  background-size: 20px;
+}
+
+input[placeholder="Security code *"] {
+  background-image: url("./img/tooltip.png");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center;
+  background-size: 20px;
+}
+
+.card_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.VAT {
+  background-image: url("./img/tooltip.png");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 170px);
+  background-size: 20px;
+  padding-bottom: 10px;
+}
+
+.card_info select {
+  width: 30%;
+  height: 44px;
+  border: 1px solid #d0dae4;
+  border-radius: 3px;
+  padding: 0px 5px;
+}
+
+.card_info input {
+  width: 30%;
+  height: 44px;
+  border: 1px solid #d0dae4;
+  border-radius: 3px;
+  padding: 0px 10px;
+}
+
+.form_card {
+  border: 1px solid #d0dae4;
+  padding: 10px;
+  background-color: #dceeee;
+  border-top: 0px;
+}
+
+div.active {
+  background-color: #dceeee;
+  border-bottom: 0px;
+}
+
+.product {
+  padding-left: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title span {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 11px;
+  color: #9fa7ab;
+}
+
+.order_button {
+  height: 70px;
+  background: #ffc107;
+  border-radius: 5px;
+  border: 0px;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.order_button:hover {
+  height: 70px;
+  background: #f7cc51;
+  border-radius: 5px;
+  border: 0px;
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.prod_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.images img {
+  padding: 20px 10px;
+}
+
+.card_info select:nth-child(1n + 1) {
+  appearance: none;
+  background-image: url("./img/select.png");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 3px) center;
+  background-size: 13px;
+}
+
+.product > p {
+  padding-top: 10px;
+  color: #666c70;
+  line-height: 20px;
+}
+
+.phone {
+  padding-top: 10px;
+}
+
+@media (max-width: 1100px) {
+  .form_head {
+    flex-direction: column;
+  }
+  .form_head input {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .order_form {
+    height: 680px;
+  }
+  .images img {
+    margin: 10px 10px;
+    height: 80px;
+  }
+  .product {
+    height: 680px;
+  }
+}
+
+@media (max-width: 850px) {
+  main {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .product {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .order_form {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 620px) {
+  .images img {
+    max-height: 120px;
+  }
+  header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 520px) {
+  .order_form {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 440px) {
+  .images img {
+    max-height: 70px;
+  }
+  .order_form {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 380px) {
+  .order_form {
+    margin-top: 100px;
+  }
+  .images img {
+    max-height: 60px;
+  }
+}
+
+@media (max-width: 350px) {
+  .order_form {
+    margin-top: 150px;
+  }
+}

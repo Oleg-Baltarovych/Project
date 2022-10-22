@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>FixPix</title>
+  </head>
+  <body>
+    <header>
+      <img src="./img/logo.png" alt="#" />
+      <div>
+        <select class="language_select selectpicker" data-countries="AT">
+          <option>English</option>
+        </select>
+        <select class="currency_select">
+          <option>USD</option>
+        </select>
+      </div>
+    </header>
+    <main>
+      <div class="order_form">
+        <h1>Billing information</h1>
+        <form>
+          <div class="form_head">
+            <input type="text" placeholder="First name *" />
+            <input type="text" placeholder="Last name *" />
+          </div>
+          <div class="form_main">
+            <input class="email" type="email" placeholder="E-mail *" />
+            <select class="country" style="padding-left: 10px">
+              <option>Ukraine</option></select
+            ><input type="tel" placeholder="Phone number" />
+          </div>
+          <div class="card_type">
+            <div class="visa active">
+              <img src="./img/visa.png" />
+            </div>
+            <div class="paypal"><img src="./img/paypal.png" /></div>
+          </div>
+          <div class="form_card">
+            <input type="number" placeholder="Card number *" />
+            <div class="card_info">
+              <select style="padding-left: 10px">
+                <option>01</option>
+              </select>
+              <select style="padding-left: 10px">
+                <option>21</option>
+              </select>
+              <input type="number" placeholder="Security code *" />
+            </div>
+          </div>
+          <button class="order_button">SUBMIT ORDER</button>
+        </form>
+      </div>
+      <div class="product">
+        <div class="title"><span>PRODUCT</span><span>PRICE</span></div>
+        <hr style="margin: 10px 0px" />
+        <div class="prod_info">
+          <div style="display: flex">
+            <img style="height: 74px" src="./img/product.png" alt="#" />
+            <div style="margin-left: 20px; line-height: 12px">
+              <p>Test Product</p>
+              <p>Product description</p>
+              <a href="#" style="text-decoration: none">Auto-renewal</a>
+            </div>
+          </div>
+          <span style="font-weight: bold">100.00 USD</span>
+        </div>
+        <hr style="margin-top: 10px" />
+        <p class="VAT" style="text-align: end; color: black; font-weight: 600">
+          VAT (20.00%): 20.00 USD
+        </p>
+        <hr />
+        <p style="text-align: end; color: #80c600">TOTAL: 120.00 USD</p>
+        <p>
+          Do not hesitate to contact our CUSTOMER CARE CENTER for more
+          information about payment and delivery.
+        </p>
+        <p>
+          Please state the order ID from the confirmation email as a reference
+          so that we can assist you efficiently.
+        </p>
+        <p>24/7 English phone support for online payment related issues:</p>
+        <div class="phone" style="display: flex">
+          <img src="./img/phone.png" /><span style="padding-left: 10px"
+            >+ 1-888-317-4868 (Toll free) <br />
+            + 1-647-977-7769 (International)</span
+          >
+        </div>
+        <p>
+          By submitting your Order, you acknowledge that you are purchasing from
+          PayPro Global (PayPro Global, Inc., PayPro Europe Limited or PayPro
+          U.S. Inc.), an authorized e-Commerce reseller.
+        </p>
+        <p>
+          Once the transaction is complete, your contact information will be
+          shared with the product vendor for ongoing support purposes.
+        </p>
+        <div class="images">
+          <img src="./img/img1.png" /><img src="./img/img2.png" /><img
+            src="./img/img3.png"
+          />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Privacy Policy | Terms and Conditions | Refund Policy</p>
+      <p>© PayPro Global, Inc. 2021</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
